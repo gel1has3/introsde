@@ -21,7 +21,7 @@ public class XPathTest {
 	    DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
 	    domFactory.setNamespaceAware(true);
 	    DocumentBuilder builder = domFactory.newDocumentBuilder();
-	    System.out.println("Loading books.xml...");
+	    System.out.println("Class Exercise on Loading books.xml...");
 	    Document doc = builder.parse("books.xml");
 
 	    XPathFactory factory = XPathFactory.newInstance();
